@@ -1,8 +1,9 @@
 package org.androidtown.hansungclass.Adapter;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import org.androidtown.hansungclass.ViewPager.EnrollmentFragment;
 import org.androidtown.hansungclass.ViewPager.HomeFragment;
@@ -25,7 +26,6 @@ public class TabPagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-
         // Returning the current tabs
         switch (position) {
             case 0:

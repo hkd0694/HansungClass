@@ -5,12 +5,13 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -25,7 +26,7 @@ import org.androidtown.hansungclass.R;
 
 import java.util.Random;
 
-public class TableFragment extends Fragment{
+public class TableFragment extends Fragment {
     private DatabaseReference databaseReference;
     private DatabaseReference mConditionRef;
     private String times;

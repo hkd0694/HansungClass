@@ -71,15 +71,10 @@ public class NotificationService extends Service {
         public void handleMessage(Message msg) {
             Intent intent = new Intent(NotificationService.this, MainActivity.class);
             PendingIntent pendingIntent = PendingIntent.getActivity(NotificationService.this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-
             notification = new Notification.Builder(getApplicationContext()).setContentTitle(course + "수업 시작하기 10분 전").setContentText(location).setSmallIcon(R.drawable.hansungclass).setTicker("Ticker").setContentIntent(pendingIntent).build();
-
             notification.defaults = Notification.DEFAULT_SOUND;
-
             notification.flags = Notification.FLAG_ONLY_ALERT_ONCE;
-
             notificationManager.notify(777, notification);
-
         }
     }
 }

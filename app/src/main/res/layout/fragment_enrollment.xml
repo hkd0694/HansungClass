@@ -189,14 +189,21 @@
             android:layout_margin="10dp"
             >
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/courseRecycleView"
+                android:dividerHeight="10dp"
+                android:divider="@color/color_White"></androidx.recyclerview.widget.RecyclerView>
+
+            <!--<android.support.v7.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/courseRecycleView"
                 android:dividerHeight="10dp"
                 android:divider="@color/color_White"
                 >
-            </android.support.v7.widget.RecyclerView>
+            </android.support.v7.widget.RecyclerView>-->
 
         </LinearLayout>
 
