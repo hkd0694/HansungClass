@@ -8,14 +8,14 @@
 
 ## Service
 
-![service](./image/service.jpg){: width="30%" }
+![service](./image/service.JPG){:width="30%"}
 
 ## Application
 
 ### 1. Initial Screen + Home Screen
 
-![Init + Home Screen](./image/first.jpg)
+![Init + Home Screen](./image/first.JPG)
 
 ### 2. Main Screen
 
-![Main Screen](./image/second.jpg)
+![Main Screen](./image/second.JPG)
