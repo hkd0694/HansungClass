@@ -8,7 +8,7 @@
 
 ## Service
 
-![service](./image/service.JPG){:width="30%"}
+![service](./image/service.JPG){:width="30%" }
 
 ## Application
 
